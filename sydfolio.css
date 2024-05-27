@@ -410,7 +410,11 @@
 }
 
 .ending{
-    height: 200px;
+    height: 75px;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
 
 @media screen and (max-width: 550px) {

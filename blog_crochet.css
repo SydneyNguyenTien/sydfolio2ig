@@ -23,12 +23,17 @@
     width: 50%;
     height: 100%;
     object-fit: cover;
+    border-right: white solid;
+    border-top: white solid;
 }
 
 .right_img{
     width:50%;
     height: 100%;
     object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    border-left: white solid;
 
 }
 
@@ -36,7 +41,8 @@
     height: 50%;
     width: 100%;
     object-fit: cover;
-
+    border-right: white solid;
+    
 }
 
 .right_down_img{
@@ -44,13 +50,16 @@
     width: 100%;
     object-fit: cover;
     margin: 0;
+    padding: 0;
     display: flex;
+    border-top: white solid;
 }
 
 .right_down_left_img{
     width: 50%;
     height: 100%;
     object-fit: cover;
+
 }
 
 
@@ -58,4 +67,6 @@
     width: 50%;
     height: 100%;
     object-fit: cover;
+    border-left: white solid;
 }
+
