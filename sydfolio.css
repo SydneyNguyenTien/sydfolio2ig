@@ -126,7 +126,7 @@
 }
 
 .bar{
-    background-color: rgb(172, 181, 189);
+    background-color: rgb(48, 48, 48);
     height: 10px;
     width: 100%;
 }
@@ -210,7 +210,7 @@
     border-color: rgb(182, 191, 199);
     border-width: 10px;
     border-radius: 1000px;
-    background-color: rgb(143, 152, 162);
+    background-color: white;
     padding: 30px;
     transition: 0.4s;
 }
@@ -221,7 +221,7 @@
     border-color: rgb(143, 152, 162);
     border-width: 10px;
     border-radius: 1000px;
-    background-color:rgb(182, 191, 199);
+    background-color: rgb(182, 191, 199);
     transition: 0.4s;
     color: white;
 }

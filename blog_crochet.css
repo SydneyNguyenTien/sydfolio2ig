@@ -1,4 +1,6 @@
-
+.main{
+    font-size: larger;
+}
 
 .blog_title{
 
@@ -13,12 +15,6 @@
     background-color: white;
     
     
-}
-
-.title{
-    text-align: center ;
-    padding: 50px;
-    font-size: 20px;
 }
 
 .left_img{
@@ -72,11 +68,33 @@
     border-left: white solid;
 }
 
+
+.title{
+    text-align: center ;
+    padding: 2%;
+    font-size: 20px;
+}
+
+
 .sec1{
-    padding: 10%;
+    padding: 5%;
+    background-color: white;
+    margin: 5%;
+    margin-top: 0%;
+ 
+}
+.sec1_data{
+    display: flex;
+  
 }
 
 .sec1_photo{
-    object-fit: cover;
-    width: 100%;
+    object-fit: fill;
+    width: 20%;
+    height: 20%;
+    padding-left: 1%;
+}
+
+.sec1_text{
+    margin-right: 3%;
 }
